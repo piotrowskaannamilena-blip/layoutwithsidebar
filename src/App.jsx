@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
 
 function App() {
 
@@ -9,14 +9,19 @@ function App() {
         <header className="header">
             <h1>My Website</h1>
         </header>
-        <nav className="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+
+        <div className="nav-wrap"> 
+            <div className="bubble active"></div>
+            <div className="bubble hover"></div>
+            <nav className="nav">
+                <a className ="active" href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+
+
         <main className="main-content">
             <h2>Welcome to My Website</h2>
             <p>This is the main content area. Here you can put articles, images, and other media.</p>
