@@ -1,0 +1,22 @@
+
+
+
+
+.first-color { 
+	background: #f8f5e4; 
+}
+	
+.second-color { 
+	background: #f97300; 
+}
+
+.third-color { 
+	background: #0e3047; 
+}
+
+.fourth-color { 
+	background: #10828c; 
+}
+
+.fifth-color { 
+    background: linear-gradient(90deg, rgb(250, 85, 134) 0%, rgb(139, 102, 241) 100%);}
